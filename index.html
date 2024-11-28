@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marca de Ropa Deportiva</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Marca de Ropa Deportiva</h1>
+        <nav>
+            <ul>
+                <li><a href="#quienes-somos">¿Quiénes somos?</a></li>
+                <li><a href="#categorias">Categorías</a></li>
+                <li><a href="#precios">Precios</a></li>
+                <li><a href="#contacto">Contáctenos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="quienes-somos">
+        <h2>¿Quiénes somos?</h2>
+        <p>Somos una marca líder en ropa deportiva, ofreciendo calidad y estilo para todos los deportistas.</p>
+        <img src="images/categoria1.jpg" alt="Imagen de la marca">
+    </section>
+
+    <section id="categorias">
+        <h2>Categorías</h2>
+        <div class="categoria">
+            <h3>Ropa Masculina</h3>
+            <img src="images/categoria1.jpg" alt="Ropa Masculina">
+            <p>Ropa de alta calidad para hombres activos.</p>
+        </div>
+        <div class="categoria">
+            <h3>Ropa Femenina</h3>
+            <img src="images/categoria2.jpg" alt="Ropa Femenina">
+            <p>Moda deportiva para mujeres con estilo.</p>
+        </div>
+    </section>
+
+    <section id="precios">
+        <h2>Precios</h2>
+        <ul>
+            <li>Camisa Deportiva: $20</li>
+            <li>Pantalones Cortos: $15</li>
+            <li>Sudadera: $30</li>
+        </ul>
+    </section>
+
+    <section id="contacto">
+        <h2>Contáctenos</h2>
+        <form id="formulario-contacto">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Marca de Ropa Deportiva</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
